@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 
 // Ruta principal que renderiza la vista
 app.get('/', (req, res) => {
-  res.render('index', { mensaje: '¡Hola Mundo desde EJS y Node.js!' });
+  res.render('index', { mensaje: '¡Holaaaaaaaaaaa Mundo desde EJS y Node.js!' });
 });
 
 app.listen(PORT, () => {
